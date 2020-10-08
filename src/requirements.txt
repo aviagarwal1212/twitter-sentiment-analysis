@@ -101,6 +101,11 @@ webencodings==0.5.1       # via bleach
 wheel==0.32.2             # via -r /home/chart-nlp/exploration/twitter-sentiment-analysis/src/requirements.in
 whichcraft==0.6.1         # via cookiecutter
 widgetsnbextension==3.5.1  # via ipywidgets
+pandas
+matplotlib
+emot
+nltk
+sklearn
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
