@@ -8,7 +8,7 @@ In this example, [Kedro](https://github.com/quantumblacklabs/kedro) was used to 
 ### This project was created as part of the [PyCon India 2020 Devsprint](https://in.pycon.org/2020/)
 
 ## Workflow Visualization using ```kedro-viz```
-[Pipeline Image](./kedro-pipeline.png)
+![Pipeline Image](./kedro-pipeline.png)
 
 ### Acknowledgement
 
