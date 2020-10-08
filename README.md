@@ -5,7 +5,7 @@ In this example, [Kedro](https://github.com/quantumblacklabs/kedro) was used to 
 * Train a Logistic Regression model for sentiment prediction based on the text of the tweets
 * Evaluate the trained model and generate a classification report
 
-This project was created as part of the [PyCon India 2020 Devsprint](https://in.pycon.org/2020/)
+This project was created as part of the [PyCon India 2020 Devsprint](https://in.pycon.org/2020/).
 
 ### Workflow Visualization using ```kedro-viz```
 ![Pipeline Image](./kedro-pipeline.png)
