@@ -1,0 +1,6 @@
+test_size: 0.1
+random_state: 3
+ngram_range_min: 1
+ngram_range_max: 2
+max_features: 100000
+max_iter: 1000

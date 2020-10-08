@@ -1,0 +1,6 @@
+context_path: twitter_sentiment_analysis.run.ProjectContext
+project_name: "Twitter Sentiment Analysis"
+project_version: "0.16.5"
+package_name: "twitter_sentiment_analysis"
+hooks:
+  - twitter_sentiment_analysis.hooks.project_hooks

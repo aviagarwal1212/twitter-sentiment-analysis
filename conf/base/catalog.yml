@@ -1,0 +1,31 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
+
+# input data set
+tweet_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/data.csv
+  fs_args:
+    open_args_load:
+      encoding: 'latin-1'
+  load_args:
+    encoding: 'latin-1'
+    names: ['sentiment', 'ids', 'date', 'flag', 'user', 'text']
+
+# preprocessed_data:
+cleaned_data:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/cleaned_data.csv
+  
+# processed_data:
+processed_data:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/processed_data.csv
+  
+#  model:
+model:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/model.pickle
+  versioned: true
